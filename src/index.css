@@ -219,6 +219,7 @@ b{
   font-size: 38px;
   letter-spacing: 0.7px;
   padding-top: 10px;
+  color: white;
 }
 
 .TypeEffect{
@@ -226,6 +227,7 @@ b{
   font-weight: 600;
   font-size: 32px;
   letter-spacing: 0.6px;
+  color: aliceblue;
 }
 
 .illustration{
@@ -237,7 +239,6 @@ b{
   .HomePage{
     display: block;
     text-align: center;
-    margin-top: 150px;
     padding: 25px;
   }
   .HomeText{
@@ -290,11 +291,13 @@ b{
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1.2px;
+  color: aliceblue;
 }
 .AboutTextHeading{
   font-size: 35px;
   font-weight: 600;
   padding-bottom: 40px;
+  color: aliceblue;
 }
 .AboutText a{
   color: #9067C6;
@@ -310,7 +313,6 @@ b{
   .AboutPage{
     display: block;
     text-align: center;
-    padding: 30px;    
   }
   .AboutText{
     text-align: left;
@@ -318,15 +320,9 @@ b{
     width: 95%;
     line-height: 24px;
     letter-spacing: 0.6px;
-    margin-bottom: 80px;
   }
   .AboutTextHeading{
     font-size: 26px;
-  }
-
-  .Avatar{
-    width: 200px;
-    margin-bottom: 75px;
   }
 }
 
@@ -365,10 +361,6 @@ b{
 @media(max-width: 500px) {
   .AboutText{
     font-size: 16px;
-  }
-  .Avatar{
-    width: 200px;
-    margin-bottom: 25px;
   }
 
   .SkillsHeading{
@@ -454,26 +446,6 @@ b{
   pointer-events: none;
 }
 
-.downloadCV{
-  cursor:pointer;
-  margin: 25px 0px;
-  width: 200px;
-  height: 40px;
-  background-color:#431f47;
-  color: #E7E7E7;
-  text-decoration: none;
-  border-radius: 5px;
-  border-style: none; 
-  transition: all 0.5s;
-}
-
-.downloadCV:hover{
-  transition: all 0.5s;
-  background-color: #E7E7E7;
-  color: #431f47;
-}
-
-
 /* FOOTER */
 
 footer{
@@ -496,13 +468,15 @@ footer{
 footer h4{
   margin: 0 25px;
   font-weight: 500;
+  color: aliceblue;
 }
 
 .footerLinks{
   display: flex;
   width: 180px;
-  font-size: 18px;
+  font-size: 30px;
   justify-content: space-evenly;
+  color: white;
 }
 
 .footerLinks a{ 
@@ -513,5 +487,7 @@ footer h4{
 @media(max-width:750px){
   footer{
     height: 110px;
+    margin-top: 0;
+    bottom: 10px;
   }
 }
