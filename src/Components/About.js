@@ -3,6 +3,7 @@ import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
 import Coder from '../LottieFiles/coder.json';
+import { FaInstagram } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -11,12 +12,13 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Jyoti Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
+            Hi, my name is <b>Jyoti Prakash Nayak</b> and I am from Odisha, India.
+            I'm a <b>Front End web developer</b> and a final year college student pursuing <b>B-Tech in CSE</b>. <br/><br/>
+            I have started my career as a <b>Software Developer</b> at IBM which.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/Jyoti_sahni_/?hl=en" target='_blank'>Instagram.</a>
+            Apart from coding I love to do photography, you can check out some of my shots here &nbsp;
+            <a href="https://www.instagram.com/jp___nayak" target='_blank'><FaInstagram/></a>
           </p>
         </div>
 
@@ -42,12 +44,14 @@ const About = () => {
         <Skills skill='Git' />
         <Skills skill='Github' />
         <Skills skill='Javascript' />
-        <Skills skill='C++' />
+        <Skills skill='Angular' />
         <Skills skill='Postman' />
-        <Skills skill='Figma' />
         <Skills skill='Vercel' />
         <Skills skill='Npm' />
         <Skills skill='Bootstrap'/>
+        <Skills skill='HTML5'/>
+        <Skills skill='CSS3'/>
+        <Skills skill='Typescript' />
         
       </div>
     </>

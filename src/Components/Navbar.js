@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import {AiOutlineHome} from "react-icons/ai";
 import {BsPerson, BsCodeSlash} from "react-icons/bs";
 import {CgFileDocument} from "react-icons/cg";
+import { useNavigate } from 'react-router-dom';
 
 
 const Nav = () => {
     const [navbarblur, setnavbarblur]=useState(false);
+    const navigate = useNavigate();
 
     function scrollHandler() {
         if (window.scrollY >= 20) {
@@ -38,11 +40,14 @@ const Nav = () => {
     }
     
     window.addEventListener("scroll", scrollHandler);
+    const handleLogoClick = () => {
+        navigate('/');
+      };
 
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>JP</h1>
+        <h1 title='Reload' onClick={handleLogoClick} className='Logo'>JP</h1>
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
