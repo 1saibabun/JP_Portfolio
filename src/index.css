@@ -263,9 +263,6 @@ b{
 }
 
 @media(max-width: 500px) {
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
   svg{
     margin-right: 5px;
   }
