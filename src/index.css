@@ -21,7 +21,7 @@
 body{
   font-family: 'Raleway', sans-serif;
   background-color: #031926;
-  color: #E7E7E7;
+  color: #faf3f3;
   min-height: 100vh;
 }
 
@@ -30,27 +30,30 @@ b{
   color: #9067C6;
 }
 
+.NavbarLinks {
+  margin-bottom: 0;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
-  background: #274656;
+  background: beige;
   border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #01111a;
+  background: #cbcecf;
   border-radius: 100px;
 }
 .projectName {
-  color: aliceblue;
+  color: rgb(28, 30, 31);
 }
 /* Background */
-.bg{
+/* .bg{
   position:fixed;
   z-index: -1;
-  bottom: 0px;  
 }
 
 .bgtwo{
@@ -63,7 +66,8 @@ b{
   position:fixed;
   z-index: -1;
   top: -30px;
-}
+  right: 0;
+} */
 
 
 /* NAVBAR */
@@ -80,10 +84,11 @@ b{
   height: 70px;
   top: 0;
   transition: all 0.7s;
+  background-color: beige;
 }
 
 .blur{
-  background-color:#01111a8d;
+  background-color:beige;
   backdrop-filter: blur( 15px );
   -webkit-backdrop-filter: blur( 20px );
 }
@@ -114,7 +119,7 @@ b{
 }
 
 .NavbarLinks a{
-  color: #c2c1c2;
+  color: #575357;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -126,7 +131,7 @@ b{
 }
 
 .NavbarLinks a:hover{
-  color: #ffffff;
+  color: #b62c2c;
 }
 .NavbarLinks a::after{
   background-color: #ffffff;
@@ -151,6 +156,10 @@ b{
     width: 100%;
   }
 
+  svg{
+    margin-right: 5px;
+  }
+
   .NavbarLinks{
     font-size: 26px;
     display: flex;
@@ -159,7 +168,7 @@ b{
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color:#431f47;
+    background-color:beige;
     height: 100vh;
     padding-top: max(20%,120px);
     transform: translateX(100%);
@@ -180,7 +189,7 @@ b{
 
   .bar{
     display: block;
-    background-color: #E7E7E7;
+    background-color: black;
     border-radius: 50px;
     height: 2.5px;
     width: 30px;
@@ -221,7 +230,7 @@ b{
   font-size: 38px;
   letter-spacing: 0.7px;
   padding-top: 10px;
-  color: white;
+  color: rgb(20, 20, 20);
 }
 
 .TypeEffect{
@@ -229,7 +238,7 @@ b{
   font-weight: 600;
   font-size: 32px;
   letter-spacing: 0.6px;
-  color: aliceblue;
+  color: blueviolet;
 }
 
 .illustration{
@@ -254,6 +263,12 @@ b{
 }
 
 @media(max-width: 500px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  svg{
+    margin-right: 5px;
+  }
   .HomePage{
     min-height: 70vh;
   }
@@ -296,13 +311,13 @@ b{
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1.2px;
-  color: aliceblue;
+  color: rgb(10, 10, 10);
 }
 .AboutTextHeading{
   font-size: 35px;
   font-weight: 600;
   padding-bottom: 40px;
-  color: aliceblue;
+  color: rgb(27, 28, 29);
 }
 .AboutText a{
   color: #9067C6;
@@ -362,7 +377,7 @@ b{
   margin: 50px 10px;
   font-size: 36px;
   letter-spacing: 0.6px;
-  color: aliceblue;
+  color: rgb(16, 17, 17);
 }
 
 @media(max-width: 500px) {
@@ -388,8 +403,8 @@ b{
   padding: 75px 0;
   letter-spacing: 0.4px;
   font-size: 36px;
-  margin-top: 100px;
-  color: aliceblue;
+  margin-top: 20px;
+  color: rgb(11, 12, 12);
 }
 .projectDesc{
   color: #9067C6;
@@ -460,10 +475,10 @@ b{
 /* FOOTER */
 
 footer{
-  width: 90%;
+  width: 50%;
   height: 40px;
   margin: 10px auto;
-  margin-top: 80px;
+  margin-top: 40px;
   letter-spacing: 0.5px;
   
   display:flex;
@@ -472,14 +487,14 @@ footer{
   justify-content: space-evenly;
   
   position: relative;
-  bottom: 0px;
+  bottom: 40px;
   text-align: center;
 }
 
 footer h4{
   margin: 0 25px;
   font-weight: 500;
-  color: aliceblue;
+  color: rgb(12, 12, 12);
 }
 
 .footerLinks{

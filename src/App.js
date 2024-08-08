@@ -38,9 +38,9 @@ function App() {
       ):(
       <div>
       
-      <Lottie className="bg" animationData={nightsky} loop={true} />  
+      {/* <Lottie className="bg" animationData={nightsky} loop={true} />  
       <Lottie className="bgtwo" animationData={nightsky} loop={true} />   
-      <Lottie className="bgtemp" animationData={nightsky} loop={true} /> 
+      <Lottie className="bgtemp" animationData={nightsky} loop={true} />  */}
 
       <Nav/>
       <MoveToTop/>
