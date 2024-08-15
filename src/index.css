@@ -4,6 +4,20 @@
   scroll-behavior: smooth;
 }
 
+/* Scrollbar */
+/* ::-webkit-scrollbar {
+  width: 5px;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+  background: beige;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: beige;
+  border-radius: 100px;
+} */
+
 #root{
   min-height: 100vh;
   position: relative;
@@ -34,43 +48,9 @@ b{
   margin-bottom: 0;
 }
 
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 5px;
-  scroll-behavior: smooth;
-}
-::-webkit-scrollbar-track {
-  background: beige;
-  border-radius: 100px;
-}
-::-webkit-scrollbar-thumb {
-  background: #cbcecf;
-  border-radius: 100px;
-}
 .projectName {
   color: rgb(28, 30, 31);
 }
-/* Background */
-/* .bg{
-  position:fixed;
-  z-index: -1;
-}
-
-.bgtwo{
-  position:fixed;
-  z-index: -1;
-  top: 220px;
-}
-
-.bgtemp{
-  position:fixed;
-  z-index: -1;
-  top: -30px;
-  right: 0;
-} */
-
-
-/* NAVBAR */
 
 .Navbar{
   display: flex;
