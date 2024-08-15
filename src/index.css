@@ -4,24 +4,9 @@
   scroll-behavior: smooth;
 }
 
-/* Scrollbar */
-/* ::-webkit-scrollbar {
-  width: 5px;
-  scroll-behavior: smooth;
-}
-::-webkit-scrollbar-track {
-  background: beige;
-  border-radius: 100px;
-}
-::-webkit-scrollbar-thumb {
-  background: beige;
-  border-radius: 100px;
-} */
-
 #root{
   min-height: 100vh;
   position: relative;
-  /* overflow-x: hidden; */
   -webkit-tap-highlight-color: transparent;
 }
 
