@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectBox from './ProjectBox';
 import ShopCPR from '../images/shopCPR.png';
 import Atlas from '../images/Atlas.png';
+import MarketPostTrade from '../images/MarketPostTrade.png';
 
 const Projects = () => {
   return (
@@ -10,6 +11,7 @@ const Projects = () => {
       <div className='project'>
         <ProjectBox projectPhoto={Atlas} projectName="Atlas" />
         <ProjectBox projectPhoto={ShopCPR} projectName="ShopCPR" />
+        <ProjectBox projectPhoto={MarketPostTrade} projectName="MarketPostTrade" />
       </div>
 
     </div>
