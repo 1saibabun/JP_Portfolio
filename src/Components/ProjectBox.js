@@ -9,6 +9,9 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
     ShopCPRDesc : "As the global source of the official resuscitation science and education guidelines the AHA is proud to offer the 2020 Guidelines for CPR and ECC and the 2020 Handbook for Emergency Cardiovascular Care.This online course is designed to provide healthcare providers information on new science and key changes published in the 2020 AHA Guidelines for CPR and ECC.",
     ShopCPRWebsite : "https://shopcpr.heart.org/",
+
+    MarketPostTradeDesc : " market post trade application for standard chartered bank scb is a solution aimed at optimizing posttrade processes in forex trading it automates tasks previously managed manually improving operational efficiency and mitigating risks",
+    MarketPostTradeWebsite : "https://www.sc.com/en/corporate-investment-banking/financial-markets/sc-markets-post-trade/",
   }
     
   return (
